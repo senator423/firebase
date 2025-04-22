@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "444729220388",
-    "project_id": "fir-62d2c",
-    "storage_bucket": "fir-62d2c.firebasestorage.app"
+    "project_number": "820232315158",
+    "project_id": "fir-2-bda8f",
+    "storage_bucket": "fir-2-bda8f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:444729220388:android:255069f23d31e1dfdea7b1",
+        "mobilesdk_app_id": "1:820232315158:android:7696d1b35524ec78957037",
         "android_client_info": {
           "package_name": "com.xiks.firebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBP7K9XPDpxW6nqIXDpIUSll8SB1s_qjMc"
+          "current_key": "AIzaSyBxFlvfqEUBS8jVoCffg0LXFKjmaRG83dA"
         }
       ],
       "services": {

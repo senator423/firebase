@@ -1,21 +1,25 @@
 package com.xiks.firebase.ui.theme.screens.Products
 
+//import androidx.compose.material.Button
+//import androidx.compose.material.OutlinedTextField
+//import androidx.compose.material.Text
+
 import android.content.Context
-import android.content.res.Configuration
 import android.net.Uri
 import android.provider.MediaStore
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material.Button
-import androidx.compose.material.OutlinedTextField
-import androidx.compose.material.Text
 import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -36,8 +40,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.xiks.login_registrationfirebase.data.productviewmodel
-import com.xiks.login_registrationfirebase.navigation.ROUTE_VIEW_PRODUCT
 import com.xiks.firebase.data.productviewmodel
 import com.xiks.firebase.navigation.ROUTE_VIEW_PRODUCT
 

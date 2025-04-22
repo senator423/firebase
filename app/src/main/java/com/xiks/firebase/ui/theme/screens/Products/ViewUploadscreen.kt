@@ -1,11 +1,16 @@
 package com.xiks.firebase.ui.theme.screens.Products
 
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 //import androidx.compose.material.Button
 //import androidx.compose.material.Text
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -21,9 +26,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import coil.compose.rememberAsyncImagePainter
-import com.xiks.login_registrationfirebase.data.productviewmodel
-import com.xiks.login_registrationfirebase.model.Upload
-import com.xiks.login_registrationfirebase.navigation.ROUTE_UPDATE_PRODUCT
 import com.xiks.firebase.data.productviewmodel
 import com.xiks.firebase.models.Upload
 import com.xiks.firebase.navigation.ROUTE_UPDATE_PRODUCT

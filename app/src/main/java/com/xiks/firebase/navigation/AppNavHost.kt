@@ -2,7 +2,6 @@ package com.xiks.firebase.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -14,13 +13,6 @@ import com.xiks.firebase.ui.theme.screens.Products.UpdateProductsScreen
 import com.xiks.firebase.ui.theme.screens.Products.ViewProductsScreen
 import com.xiks.firebase.ui.theme.screens.Products.ViewUploadsScreen
 import com.xiks.firebase.ui.theme.screens.Register.RegisterScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.home.HomeScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.login.LoginScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.productus.AddProductsScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.productus.UpdateProductsScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.productus.ViewProductsScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.productus.ViewUploadsScreen
-import com.xiks.login_registrationfirebase.ui.theme.screens.register.RegisterScreen
 
 
 @Composable

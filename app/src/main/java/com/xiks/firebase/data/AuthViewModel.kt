@@ -5,12 +5,7 @@ import android.content.Context
 import android.widget.Toast
 import androidx.navigation.NavHostController
 import com.google.firebase.auth.FirebaseAuth
-import com.xiks.login_registrationfirebase.model.User
-import com.xiks.login_registrationfirebase.navigation.ROUTE_HOME
-import com.xiks.login_registrationfirebase.navigation.ROUTE_LOGIN
-import com.xiks.login_registrationfirebase.navigation.ROUTE_REGISTER
-import com.xiks.firebase.auth.FirebaseAuth
-import com.xiks.firebase.database.FirebaseDatabase
+import com.google.firebase.database.FirebaseDatabase
 import com.xiks.firebase.models.User
 import com.xiks.firebase.navigation.ROUTE_HOME
 import com.xiks.firebase.navigation.ROUTE_LOGIN
@@ -28,7 +23,7 @@ class AuthViewModel(var navController:NavHostController,var context:Context){
         progress.setMessage("PLease Wait.....")
     }
     fun signup(email:String,pass:String,confpass:String){
-        progress.show()
+
 
         if (email.isBlank() || pass.isBlank() ||confpass.isBlank()){
             progress.dismiss()
@@ -63,7 +58,7 @@ class AuthViewModel(var navController:NavHostController,var context:Context){
 
     }
     fun login(email: String,pass: String){
-        progress.show()
+
 
         mAuth.signInWithEmailAndPassword(email,pass).addOnCompleteListener {
             progress.dismiss()
