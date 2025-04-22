@@ -31,6 +31,7 @@ import com.xiks.firebase.models.Product
 import com.xiks.firebase.navigation.ROUTE_UPDATE_PRODUCT
 
 
+
 @Composable
 fun ViewProductsScreen(navController:NavHostController) {
     Column(modifier = Modifier.fillMaxSize(),
