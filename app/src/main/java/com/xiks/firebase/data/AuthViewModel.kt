@@ -11,6 +11,7 @@ import com.xiks.firebase.navigation.ROUTE_HOME
 import com.xiks.firebase.navigation.ROUTE_LOGIN
 import com.xiks.firebase.navigation.ROUTE_REGISTER
 
+
 class AuthViewModel(var navController:NavHostController,var context:Context){
 
     var mAuth: FirebaseAuth

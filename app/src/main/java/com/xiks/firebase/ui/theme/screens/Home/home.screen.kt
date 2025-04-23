@@ -26,7 +26,6 @@ import com.xiks.firebase.navigation.ROUTE_ADD_PRODUCT
 import com.xiks.firebase.navigation.ROUTE_VIEW_PRODUCT
 import com.xiks.firebase.navigation.ROUTE_VIEW_UPLOAD
 
-
 @Composable
 fun HomeScreen(navController: NavHostController) {
     Column(modifier = Modifier

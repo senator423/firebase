@@ -16,6 +16,7 @@ import com.xiks.firebase.models.Product
 import com.xiks.firebase.models.Upload
 import com.xiks.firebase.navigation.ROUTE_LOGIN
 
+
 class productviewmodel(var navController: NavHostController, var context: Context) {
     var authRepository: AuthViewModel
     var progress: ProgressDialog
