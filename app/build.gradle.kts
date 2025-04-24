@@ -70,4 +70,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.coil.compose)
+    implementation(libs.play.services.vision)
+
+    //implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+    //implementation 'com.google.firebase:firebase-ml-vision-barcode-model:16.1.1'
 }
